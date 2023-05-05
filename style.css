@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/xayya.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    /* backdrop-filter: blur(10px); */
+    height: 100vh;
+    cursor: pointer;
+}
+.container{
+    position: absolute;
+    width: 600px;
+    /* transform: translateY(-50%);
+    transform: translatex(50%); */
+    margin: auto;
+    background-color: rgb(56, 154, 219);
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px #fff;
+}
+
+.inp{
+    padding-left: 15px;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn{
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
